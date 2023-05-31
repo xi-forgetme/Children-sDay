@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>儿童节快乐</title>
+    </head>
+    <body onload="redirectToWebsite()">
+        <script>
+            function redirectToWebsite() {
+                var websites = ["http://www.4399.com", "http://www.4399.com", "https://xyx.hao123.com/", "http://www.yx123.com/xgame/"]
+                var min = 0;
+                var max = 3;
+                var randomIntInRange = Math.floor(Math.random() * (max - min + 1)) + min;
+                window.location.href = websites[randomIntInRange]
+            }
+        </script>
+    </body>
+</html>
